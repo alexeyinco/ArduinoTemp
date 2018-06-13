@@ -83,6 +83,25 @@ void loop()
       else if (c != '\r') {                         //иначе, если "с" не равен символу возврата курсора на начало строки
         currentLineIsBlank = false;                 //то получаем символ на текущей строке
       }
+      
+          //допилить до температуры
+    
+      if (c == '\n' && currentLineIsBlank) {        //выводим HTML страницу
+        client.println("HTTP/1.1 200 OK");          //заголовочная информация
+        client.println("Content-Type: text/html");
+        client.println("Connection: close");  
+        client.println("Refresh: 30");              //автоматическое обновление каждые 30 сек
+        client.println();
+        client.println("<!DOCTYPE HTML>");          //HTML тип документа
+        client.println("<html>");                   //открытие тега HTML 
+        client.print("<title>Web Server</title>");                  //название страницы
+        client.print("<H1>Web Server ArduinoTemp</H1>");                        //заголовок на странице
+        client.print("<a href=\"/$1\"><button>On</button></a>");       //кнопка включить
+        client.print("<a href=\"/$2\"><button>Off</button></a>");      //кнопка выключить
+        client.println("<br />");       
+        client.println("</html>");                  //закрываем тег HTML
+        break;                                      //выход
+      }
     
     }
     
