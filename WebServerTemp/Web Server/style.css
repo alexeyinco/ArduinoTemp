@@ -1,0 +1,108 @@
+body {
+font-family: Open Sans, sans-serif;
+font-size: 11pt; 
+background-color: #fff;
+color: #blue;
+
+}
+
+
+
+
+p{
+margin: 3px;
+}
+
+h1 {
+color: #blue;
+font-size: 24pt;
+font-family: Open Sans, serif;
+font-weight: normal;
+}
+
+.submitButton{
+padding:7px 9px 8px 9px;
+background-color: white;
+
+border-radius: 20px;
+font-size: 15px;
+font-family: Open Sans;
+border: none;
+margin-top: 20px;
+}
+
+.r{
+background-color: #7DC9F9;
+color:#fff;
+width: 50%;
+text-align:center;
+min-width: 300px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+
+.rl{
+font-size: 30px;
+background-color: #7DC9F9;
+color:#fff;
+width: 49%;
+text-align:center;
+min-width: 200px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+float: left;
+min-height: 190px;
+}
+
+.rr{
+font-size: 30px;
+background-color: #7DC9F9;
+color:#fff;
+width: 49%;
+text-align:center;
+min-width: 200px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+float:right;
+min-height: 190px;
+}
+
+.r2{
+font-size: 90px;
+margin: 0;
+}
+.r1{
+margin:0;
+font-size: 35px;
+padding-top: 10px;
+}
+
+.r3{
+display:inline-block;
+}
+
+.on{
+font-size: 90px;
+margin: 0;
+color:#99F0A4;
+
+}
+
+.off{
+font-size: 90px;
+margin: 0;
+color: #F78995;
+}
+
+form{
+margin: 0;
+}
+
+
+
+
