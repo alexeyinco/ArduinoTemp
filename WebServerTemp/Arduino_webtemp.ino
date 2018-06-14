@@ -10,7 +10,7 @@ DallasTemperature sensors(&oneWire);
 byte mac[] = { 0x54, 0x34, 0x41, 0x30, 0x30, 0x31 };                                       
 
 EthernetClient client;
-char server[] = "TestWebServer01";
+char server[] = "TestWebServer01"; // имя сервера на домене
 int buff=0;
 const int =5;
 
