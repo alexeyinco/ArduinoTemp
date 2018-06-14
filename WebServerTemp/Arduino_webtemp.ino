@@ -71,11 +71,11 @@ void loop()
 
   if ( buff==1)
         {
-        digitalWrite (led, HIGH);
+        digitalWrite (led1, HIGH);
         }
         else
         {
-          digitalWrite(led, LOW);
+          digitalWrite(led1, LOW);
         }
   delay(500);
 }
