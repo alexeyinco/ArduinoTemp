@@ -10,9 +10,9 @@ DallasTemperature sensors(&oneWire);
 byte mac[] = { 0x54, 0x34, 0x41, 0x30, 0x30, 0x31 };                                       
 
 EthernetClient client;
-char server[] = "*************";
+char server[] = "TestWebServer01";
 int buff=0;
-const int led=5;
+const int =5;
 
 void setup()
 {
@@ -71,11 +71,11 @@ void loop()
 
   if ( buff==1)
         {
-        digitalWrite (led1, HIGH);
+        digitalWrite (led, HIGH);
         }
         else
         {
-          digitalWrite(led1, LOW);
+          digitalWrite(led, LOW);
         }
   delay(500);
 }
